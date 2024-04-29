@@ -7,7 +7,7 @@ based on this [https://alexchas-dev.ru/](https://alexchas-dev.ru/)
 ```bash
 mkdir projects && cd projects
 git clone https://github.com//ijurij/blogg.git
-cd laravel-orchid-blog
+cd blogg
 composer install
 npm install
 npm run dev
