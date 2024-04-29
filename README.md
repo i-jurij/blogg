@@ -14,7 +14,7 @@ npm run dev
 php artisan storage:link
 cp .env.example .env
 
-# create db with name from env after this step
+# create db with name from env before this step
 #  ======== Without Docker
 php artisan migrate --seed
 # Create a user with the maximum (at the time of creation) rights:
